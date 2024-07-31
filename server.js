@@ -102,7 +102,7 @@ app.delete('/test/:id', async (req, res) => {
 // Root route
 app.get('/', async (req, res) => {
     res.send(`
-        WElCOME
+        WElCOME FROM cPanel Git Version Control
     `)
 })
 
